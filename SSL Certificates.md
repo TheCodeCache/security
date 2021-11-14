@@ -1,5 +1,5 @@
 # What is an SSL?  
-SSL is a protocol that secures the communication between client and server using `public key` 
+SSL is a protocol that secures the communication between client and server using `public key`  
  and `symmetric key cryptography authentication` technology.  
 
 # SSL Certificate
