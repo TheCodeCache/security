@@ -1,5 +1,5 @@
-# Server certificates  
-This is what mostly referred as the "SSL certificates".  
+# Server certificate  
+This is what mostly referred as the "SSL certificate".  
   The names are interchangeable, however it is not entirely true, bcoz SSL certificates can be as Client certificates as well.  
   This `server certificates` are used to authenticate the `identity` of a server.  
   When installed on a website, an `SSL certificate` turns the protocol on the website from `HTTP to HTTPS`  
