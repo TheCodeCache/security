@@ -1,5 +1,6 @@
 # What is an SSL?  
-SSL is a protocol that secures the communication between client and server using `public key` and `symmetric key cryptography authentication` technology.  
+SSL is a protocol that secures the communication between client and server using `public key` 
+ and `symmetric key cryptography authentication` technology.  
 
 # SSL Certificate
 An SSL certificate is a digitally secured file which contains information about the organization with a crypto key.  
@@ -16,5 +17,4 @@ Reference(s):
 - https://cheapsslsecurity.com/blog/ssl-certificates-for-website-security/  
 - https://www.youtube.com/watch?v=33VYnE7Bzpk
 - https://stackoverflow.com/questions/24752105/openssl-client-certificates-vs-server-certificates?rq=1  
-
 
