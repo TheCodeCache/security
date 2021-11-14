@@ -26,6 +26,6 @@ Client certificates also use public key infrastructure (PKI) for authentication,
 **Key difference:**  
   > Unlike Server certificates, Client certificates don't encrypt any data; they're installed for validation purposes only.  
 
-Reference:
+**Reference:**  
 - https://cheapsslsecurity.com/blog/client-certificate-vs-server-certificate-simplifying-the-difference/
-- 
+
