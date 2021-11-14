@@ -18,3 +18,6 @@ Reference(s):
 - https://www.youtube.com/watch?v=33VYnE7Bzpk
 - https://stackoverflow.com/questions/24752105/openssl-client-certificates-vs-server-certificates?rq=1  
 
+For differences/similarity:  
+- http://web.archive.org/web/20140619093047/http://blogs.msdn.com/b/kaushal/archive/2012/02/18/client-certificates-v-s-server-certificates.aspx
+- https://cheapsslsecurity.com/blog/client-certificate-vs-server-certificate-simplifying-the-difference/
