@@ -1,4 +1,4 @@
-# Digital Certificate #
+# Digital Signature #
 
 A `digital signature` is equivalent to a handwritten signature.  
 It is an electronic verification of the sender.  
