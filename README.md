@@ -1,5 +1,5 @@
 # security primitives  
-This repo deals with security primitives!  
+This repo deals with fundamental primitives in security!  
 
 **Work In Progress. . .**  
   
