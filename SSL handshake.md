@@ -1,4 +1,4 @@
-# SSL/TLS handshake
+# SSL/TLS handshake  
 The SSL/TLS handshake involves a series of steps  
   through which both the parties – client and server, `validate` and start communicating through the secure `SSL/TLS tunnel`.  
 
