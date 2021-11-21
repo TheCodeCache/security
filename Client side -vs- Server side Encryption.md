@@ -4,7 +4,7 @@ Generic answer : **Depends on the use case.**
   Managing `key` and `encryption` every thing is taken care by AWS.  
   When we upload an object to S3 plaintext is visible to aws.  
   It will encrypt it and whenever needed, it will `decrypt` the content with the key.  
-  AWS has access to encryption key.  
+  AWS has access to encryption key.   
 
 `Client side encryption`: we will manage everything.  
   `Key`, `encryption` or `decryption` will all be taken care by us.  
