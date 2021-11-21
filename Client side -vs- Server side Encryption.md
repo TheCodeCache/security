@@ -15,7 +15,11 @@ So, when we `trust` AWS with our data and keys and `cost is a consideration` we 
   and, we've specific requirements (encryption other than AES-256 etc.) we should choose for client side.  
 
 # Important Note:  
-Technically, **over HTTPS**, any data sent is subject to **client-side encryption**
+- Technically, **over HTTPS**, any data sent is subject to **client-side encryption**  
+- AWS KMS can perform both client-side as well as server-side (en/de)cryption.  
+  - As [server-side](https://docs.aws.amazon.com/kms/latest/cryptographic-details/ebs-volume-encryption.html) encryption, it uses KMS service to encrypt EBS volumes.  
+  - As [client-side](https://docs.aws.amazon.com/kms/latest/cryptographic-details/client-side-encryption.html) encryption, it uses AWS KMS SDK library to encrypt the data  
+  - both the flow can be found here: https://docs.aws.amazon.com/kms/latest/cryptographic-details/use-cases.html  
   
   
   
