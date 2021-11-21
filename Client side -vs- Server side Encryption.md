@@ -14,6 +14,13 @@ So, when we `trust` AWS with our data and keys and `cost is a consideration` we 
   But when we've our own encryption infrastructure,   
   and, we've specific requirements (encryption other than AES-256 etc.) we should choose for client side.  
 
+# Important Note:  
+Technically, **over HTTPS**, any data sent is subject to **client-side encryption**
+  
+  
+  
+  
 **Reference:**  
 - Quora
+- https://qr.ae/pGmOFj
 
