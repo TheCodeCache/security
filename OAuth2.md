@@ -72,6 +72,39 @@ and asks for the access-token and use this access-token to further access the Re
 
 moreover, the exchange of `grant` with `access-token` can only happen in the back channel due to the above security reasons  
 
+usecases (pre-2014) -  
+1. simple login (OAuth2.0) - Authentication+Authorization usecase
+2. single sign-on access (OAuth2.0) - Authentication+Authorization usecase
+3. mobile app login (OAuth2.0) - Authentication+Authorization usecase
+4. delegated authorization (OAuth2.0) - Only Authorization usecase
+
+OAuth was never design for the Authentication  
+using OAuth for authentication is bad because in OAuth there's no standard way of getting the user's information  
+![image](https://user-images.githubusercontent.com/26399543/147700747-8ef8cedd-3a70-46af-b7ce-09cb30928230.png)
+solution -  
+![image](https://user-images.githubusercontent.com/26399543/147700252-767abd7e-22fd-4c4e-97f1-52c70bc54aa3.png)
+
+OpenID Connect —  
+it's not an authentication protocol rather just an extenstion to OAuth2.0  
+
+![image](https://user-images.githubusercontent.com/26399543/147700881-a0b88722-6fb7-4129-b1e4-87e1c8fb6271.png)
+
+The OpenID Connect flow on top of OAuth2.0 —    
+
+![image](https://user-images.githubusercontent.com/26399543/147701157-5c5401e3-cc50-4149-99db-036ab664c0a0.png)
+
+
+ID-Token is something called JSON Web Token or JWT,  
+this JWT is just a standard way of encoding a bunch of information in a way that's easy to transmit over the internet  
+
+![image](https://user-images.githubusercontent.com/26399543/147702065-662b8d1a-fcc6-4d9d-89f8-65e6a3d5bc44.png)
+
+Let us decode the JWT string  
+
+![image](https://user-images.githubusercontent.com/26399543/147702112-1a9c1f3c-17fc-4095-9d43-19e79284acdf.png)
+
+
+
 **Reference:**  
-1. https://www.youtube.com/watch?v=bzGKgC3N7SY
+1. https://www.youtube.com/watch?v=996OiexHze0
 
