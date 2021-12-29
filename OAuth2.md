@@ -1,5 +1,6 @@
 # OAuth2 — 
 
+- it stands for Open Authorization
 - OAuth2 is an open standard for access delegation  
 - it's not for access authentication, it's for access delegation
 - it's not authentication protocol, rather a standard to delegate access
