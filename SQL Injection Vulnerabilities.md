@@ -108,7 +108,7 @@ Option-4 :
   This technique is to escape user input before putting it in a query.  
   It is very database specific in its implementation.  
 
-  This technique works like this -  
+  This `escaping technique` works like this -  
   Each DBMS supports one or more character escaping schemes specific to certain kinds of queries.  
   If we then escape all user supplied input using the proper escaping scheme for the database we are using,  
   the DBMS will not confuse that input with SQL code written by the developer,  
